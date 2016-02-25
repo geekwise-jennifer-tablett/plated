@@ -1,2 +1,55 @@
+html,body{
+    margin:0;
+    Padding:0;
+    height:auto;
+    width:auto;
+    font:62.5px;
+    box-sizing:border-box;
+}
+header{
+    height:50px;
+    width:100%;
+    border: aqua 10px solid;
+    background-color:cadetblue;
+    
+} 
+#explore_link{
+    height:40px;
+    width:60px;
+    float:left;
+    position:relative;
+    bottom:-15px;
+    font-size:20px;
+}
+a{
+    
+}
 
-          
+#div_img{
+    text-align:center;
+}
+
+
+
+#log_link{
+    height:40px;
+    width:60px;
+    float:right;
+    position:relative;
+    top:-13px;
+    font-size:20px;
+}
+#sign_link{
+     height:40px;
+    width:60px;
+    float:right;
+    position:relative;
+     top:-13px;
+    font-size:20px;
+    
+}
+a{
+   color:#110202;
+    text-decoration:none;
+    
+}
