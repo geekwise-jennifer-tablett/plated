@@ -7,46 +7,58 @@ html,body{
     box-sizing:border-box;
 }
 header{
-    height:50px;
+    height:60px;
     width:100%;
-    border: aqua 10px solid;
-    background-color:cadetblue;
+    border: #d2d2d2 2px solid;
+   
     
 } 
 #explore_link{
     height:40px;
-    width:60px;
+    width:70px;
     float:left;
     position:relative;
     bottom:-15px;
     font-size:20px;
 }
-a{
-    
+a:hover{
+    color:#56cc9d; 
 }
 
 #div_img{
+    max-height:80%;
+    width:auto;
     text-align:center;
 }
 
-
+#img_logo{
+    margin-top:5px;
+    height:50px;
+    width:auto;
+  
+    
+}
 
 #log_link{
-    height:40px;
-    width:60px;
+    height:100%;
+    width:80px;
     float:right;
     position:relative;
-    top:-13px;
+    text-align:center;
+    line-height:50px;
+    top:-49px;
     font-size:20px;
 }
 #sign_link{
-     height:40px;
-    width:60px;
+    height:100%;
+    width:80px;
     float:right;
     position:relative;
-     top:-13px;
+    text-align:center;
+    line-height:50px;
+    top:-49px;
     font-size:20px;
-    
+    background-color:#56cc9d
 }
 a{
    color:#110202;
