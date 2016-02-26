@@ -93,11 +93,22 @@ a{
 }
 
 
-.fa fa-bars{
-   display:hidden;
-    }
+/*icons*/
+
+#fa_fa_bars{
+    float:left;
+    visibility:hidden;
+    background-color:chartreuse;
+        
+}
 
 
+#sign_in{
+    float:right;
+    visibility:hidden;
+    background-color:brown;
+
+}
 
 
 /*header media query*/
@@ -117,9 +128,27 @@ a{
         visibility:hidden;
     }
     
-    .fa fa-bars{
-        display:inline;
-    }
+   #fa_fa_bars{
+      height:30px;
+      width:30px;
+      text-align:center;
+      line-height:30px;
+      float:left;
+      visibility: visible;
+     }
+   
+    
+    #sign_in{
+      height:30px;
+      width:30px;
+      text-align:center;
+      line-height:30px;
+      float:left;
+      visibility: visible;
+     }
+    
+    
+    
     #img_logo{
         width: 100%;
     }
