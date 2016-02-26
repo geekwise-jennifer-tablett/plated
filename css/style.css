@@ -6,10 +6,16 @@ html,body{
     font:62.5px;
     box-sizing:border-box;
 }
+
+body{
+    margin:0;
+    padding:0;
+    font=size:12px;
+}
 header{
     margin:0;
     height:50px;
-    width:auto;
+    width:100%;
     border: #d2d2d2 2px solid;
 } 
 #top{
@@ -17,22 +23,18 @@ header{
     height: 50px;
 }
 
-div{
-    height:100%;
-    width:100%;
-    float:left;
-}
 #explore_link{
     width: calc(100%/3);
     height:100%;
     float:left;
     position:relative;
-    font-size:20px;
-    line-height:50px;
+   line-height:50px;
     text-align:center;
     display:inline-block;
     
 }
+
+
 a:hover{
     color:#56cc9d; 
 }
@@ -52,12 +54,10 @@ a:hover{
     height:50px;
     width:50;
     display:inline-block;
-  
-    
 }
 
 
-#log_sign{
+#login_sign{
     width: calc(100%/3);
     height:100%;
     float:right;
@@ -66,25 +66,13 @@ a:hover{
 }
 #log_link{
     height:100%;
+    width: 40%;
     float:left;
     position:relative;
-    font-size:20px;
     line-height:50px;
     text-align:center;
     display:inline-block;
    
-}
-#sign_link{
-  height:50px;
-  width:auto;
-  float:right;
-  position:relative;
-  font-size:20px;
-  text-align:center;  
-  line-height:50px;
-  display:inline-block;
-  background-color:#56cc9d;
-    
 }
 a{
    color:#110202;
@@ -92,5 +80,46 @@ a{
     
 }
 
+#sign_link{
+  height:50px;
+  width:60%;
+  float:right;
+  position:relative;
+  text-align:center;  
+  line-height:50px;
+  display:inline-block;
+  background-color:#56cc9d;
+    
+}
+
+
+
+
+/*header_icons*/
+
+
+.icon_explore{}
+
+
+
 /*header media query*/
 
+@media only screen and (max-width:420px){
+       
+        header{
+           
+            
+        }
+    #img_logo{
+        width: 100%;
+    }
+        #top{
+          
+        }
+    #log_link{
+        visibility: hidden;
+    }
+        #login_sign{
+           
+        }
+}
