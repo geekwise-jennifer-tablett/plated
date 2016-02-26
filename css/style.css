@@ -93,16 +93,19 @@ a{
 }
 
 
+.fa fa-bars{
+   display:hidden;
+    }
 
-
-/*header_icons*/
-
-
-.icon_explore{}
 
 
 
 /*header media query*/
+
+
+
+
+
 
 @media only screen and (max-width:420px){
        
@@ -110,6 +113,13 @@ a{
            
             
         }
+    #explore_link{
+        visibility:hidden;
+    }
+    
+    .fa fa-bars{
+        display:inline;
+    }
     #img_logo{
         width: 100%;
     }
@@ -122,4 +132,8 @@ a{
         #login_sign{
            
         }
+  
 }
+
+
+
