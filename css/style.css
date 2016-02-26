@@ -105,14 +105,53 @@ a{
 
 
 main{
-    margin:0 auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: url("http://i.imgur.com/RtIG5AV.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size:100%;
     
 }
 
+#sec_zipcode{
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    
+}
+
+#div_title{
+    margin:0 auto;
+    padding:5px;
+    font-size:40px;
+    text-transform:capitalize;
+    color:#ffffff;
+    text-align:center;
+}
 
 
+#zipcode{
+    margin:0 auto;
+    padding:5px;
+    height:40px;
+    width:500px;
+    text-align:center;
+   
+}
 
-
+#seeplans{
+    margin:0
+    padding:5px;
+    height:40px;
+    width:500px;
+    text-align:center;
+    color:#ffffff;
+    background-color:#56cc9d;
+}
 
 
 
