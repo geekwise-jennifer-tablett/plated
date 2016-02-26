@@ -24,7 +24,7 @@ header{
 }
 
 #explore_link{
-    width: calc(100%/3);
+    width: calc(100%/5);
     height:100%;
     float:left;
     position:relative;
@@ -42,7 +42,7 @@ a:hover{
 
 #div_img{ 
     max-height:80%;
-    width:calc(100%/3);
+    width:calc(100%/5);
     float: left;
     display:block;
     text-align:center;
@@ -58,7 +58,7 @@ a:hover{
 
 
 #login_sign{
-    width: calc(100%/3);
+    width: calc(100%/5);
     height:100%;
     float:right;
     line-height:50px;
@@ -96,6 +96,7 @@ a{
 /*icons*/
 
 #fa_fa_bars{
+    
     float:left;
     visibility:hidden;
     background-color:chartreuse;
@@ -103,13 +104,25 @@ a{
 }
 
 
-#sign_in{
+main{
+    margin:0 auto;
+    
+}
+
+
+
+
+
+
+
+
+/*#sign_in{
     float:right;
     visibility:hidden;
     background-color:brown;
 
 }
-
+*/
 
 /*header media query*/
 
@@ -124,8 +137,17 @@ a{
            
             
         }
+    div{
+        height:100%;
+        width:calc(100%/5)
+    }
     #explore_link{
         visibility:hidden;
+    }
+    
+    
+    #sign_link{
+       width:100%;
     }
     
    #fa_fa_bars{
