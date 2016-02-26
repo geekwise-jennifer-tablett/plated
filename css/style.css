@@ -7,58 +7,84 @@ html,body{
     box-sizing:border-box;
 }
 header{
-    height:60px;
-    width:100%;
+    margin:0;
+    height:50px;
+    width:auto;
     border: #d2d2d2 2px solid;
-   
-    
 } 
+#top{
+    width: 100%;
+    height: 50px;
+}
+
+div{
+    height:100%;
+    width:100%;
+    float:left;
+}
 #explore_link{
-    height:40px;
-    width:70px;
+    width: calc(100%/3);
+    height:100%;
     float:left;
     position:relative;
-    bottom:-15px;
     font-size:20px;
+    line-height:50px;
+    text-align:center;
+    display:inline-block;
+    
 }
 a:hover{
     color:#56cc9d; 
 }
 
-#div_img{
+
+#div_img{ 
     max-height:80%;
-    width:auto;
+    width:calc(100%/3);
+    float: left;
+    display:block;
     text-align:center;
 }
 
+
 #img_logo{
-    margin-top:5px;
+    margin:0 auto;
     height:50px;
-    width:auto;
+    width:50;
+    display:inline-block;
   
     
 }
 
+
+#log_sign{
+    width: calc(100%/3);
+    height:100%;
+    float:right;
+    line-height:50px;
+    display:inline-block;
+}
 #log_link{
     height:100%;
-    width:80px;
-    float:right;
+    float:left;
     position:relative;
-    text-align:center;
-    line-height:50px;
-    top:-49px;
     font-size:20px;
+    line-height:50px;
+    text-align:center;
+    display:inline-block;
+   
 }
 #sign_link{
-    height:100%;
-    width:80px;
-    float:right;
-    position:relative;
-    text-align:center;
-    line-height:50px;
-    top:-49px;
-    font-size:20px;
-    background-color:#56cc9d
+  height:50px;
+  width:auto;
+  float:right;
+  position:relative;
+  font-size:20px;
+  text-align:center;  
+  line-height:50px;
+  display:inline-block;
+  background-color:#56cc9d;
+    
 }
 a{
    color:#110202;
@@ -68,19 +94,3 @@ a{
 
 /*header media query*/
 
-/*Custom, iPhone Retina */
-@media only screen 
-    and (min-width:320px)
-     and(max-width: 479px)
-        {img{width:calc(5rem/1)
-            height:auto;
-            transform:trasnlateY(20%);
-        }
-         #log_link{width:calc(80%/1)
-            height:auto;
-            transform:trasnlateY(20%);
-                
-         }
-            
-        }
-}
