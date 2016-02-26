@@ -125,8 +125,7 @@ main{
 }
 
 #div_title{
-    margin:0 auto;
-    padding:5px;
+    margin:5px;
     font-size:40px;
     text-transform:capitalize;
     color:#ffffff;
@@ -135,8 +134,7 @@ main{
 
 
 #zipcode{
-    margin:0 auto;
-    padding:5px;
+    margin:5px;
     height:40px;
     width:500px;
     text-align:center;
