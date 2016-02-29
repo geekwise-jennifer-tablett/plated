@@ -93,7 +93,7 @@ a{
 }
 
 
-/*icons*/
+/*header_icons*/
 
 #fa_fa_bars{
     
@@ -196,6 +196,13 @@ main{
 
 }
 */
+
+
+footer{
+    margin:0 auto;
+    background-color:yellow;
+}
+
 
 /*header media query*/
 
